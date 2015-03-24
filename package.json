@@ -1,0 +1,41 @@
+{
+    "name": "handlebars.choice",
+    "description": "Handlebars inflection/pluralisation helpers",
+    "version": "1.0.0",
+    "main": "handlebars.choice.js",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/solidgoldpig/handlebars.choice.git#1.0.0"
+    },
+    "homepage": "http://choice.handlebars.solidgoldpig.com",
+    "bugs": "https://github.com/solidgoldpig/handlebars.choice/issues",
+    "keywords": [
+        "handlebars",
+        "helper",
+        "internationalisation",
+        "internationalization",
+        "i18n",
+        "pluralisation",
+        "pluralization",
+        "inflection",
+        "substitution",
+        "choice"
+    ],
+    "dependencies": {
+        "lodash": ">=0.0.0"
+    },
+    "devDependencies": {
+        "markdown": ">=0.0.0",
+        "handlebars": ">=0.0.0",
+        "jasmine-node": "^1.14.x",
+        "log": "^1.4.0"
+    },
+    "scripts": {
+        "test": "jasmine-node --verbose spec"
+    },
+    "author": {
+        "name": "Alex Robinson",
+        "email": "handlebars.choice@alex.solidgoldpig.com"
+    },
+    "license": "UNLICENSE"
+}
