@@ -21,7 +21,7 @@ Content selection helpers providing pluralisation/inflection for [Handlebars](ht
     var Choice = require("handlebars.choice");
     Choice.registerHelpers(Handlebars);
 
-## Using the helpers
+### Using the helpers
 
 Strings are treated as straight keywords
 
